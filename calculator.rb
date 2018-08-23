@@ -14,7 +14,7 @@ class Calculator
   end
 
   def divide(dividend, divisor)
-    return dividend / divisor
+    return dividend.to_f / divisor
   end
 
   def square(number)
